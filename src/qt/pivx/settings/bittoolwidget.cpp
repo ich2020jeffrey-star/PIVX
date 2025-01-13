@@ -3,8 +3,9 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "qt/pivx/settings/bittoolwidget.h"
+#include "qt/pivx/settings/forms/ui_bittoolwidget.h"
+
 #include "qt/pivx/qtutils.h"
-#include "qt/pivx/settings/forms/ui_settingsbittoolwidget.h"
 
 #include "guiutil.h"
 #include "walletmodel.h"

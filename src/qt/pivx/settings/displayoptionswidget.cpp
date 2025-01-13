@@ -3,12 +3,14 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "qt/pivx/settings/displayoptionswidget.h"
+#include "qt/pivx/settings/forms/ui_displayoptionswidget.h"
+
 #include "bitcoinunits.h"
 #include "clientmodel.h"
 #include "guiutil.h"
 #include "optionsmodel.h"
 #include "qt/pivx/qtutils.h"
-#include "qt/pivx/settings/forms/ui_settingsdisplayoptionswidget.h"
+
 #include <QDir>
 #include <QListView>
 #include <QSettings>

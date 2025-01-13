@@ -4,7 +4,7 @@
 
 #include "qt/pivx/settings/backupwallet.h"
 
-#include "qt/pivx/settings/forms/ui_settingsbackupwallet.h"
+#include "qt/pivx/settings/forms/ui_backupwallet.h"
 
 #include "guiinterface.h"
 #include "guiutil.h"

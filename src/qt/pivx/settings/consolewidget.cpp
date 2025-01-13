@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "qt/pivx/settings/consolewidget.h"
-#include "qt/pivx/settings/forms/ui_settingsconsolewidget.h"
+#include "qt/pivx/settings/forms/ui_consolewidget.h"
 
 #include "qt/pivx/qtutils.h"
 #include "qt/rpcexecutor.h"

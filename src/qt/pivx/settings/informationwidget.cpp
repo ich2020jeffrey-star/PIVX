@@ -3,7 +3,7 @@
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #include "qt/pivx/settings/informationwidget.h"
-#include "qt/pivx/settings/forms/ui_settingsinformationwidget.h"
+#include "qt/pivx/settings/forms/ui_informationwidget.h"
 
 #include "clientmodel.h"
 #include "chainparams.h"

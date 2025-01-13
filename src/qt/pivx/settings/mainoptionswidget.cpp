@@ -3,8 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "qt/pivx/settings/mainoptionswidget.h"
-#include "QListView"
-#include "qt/pivx/settings/forms/ui_settingsmainoptionswidget.h"
+#include "qt/pivx/settings/forms/ui_mainoptionswidget.h"
 
 #if defined(HAVE_CONFIG_H)
 #include "config/pivx-config.h"

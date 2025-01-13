@@ -54,17 +54,17 @@ QT_FORMS_UI = \
   qt/pivx/forms/createproposaldialog.ui \
   qt/pivx/forms/proposalinfodialog.ui \
   qt/pivx/forms/governancewidget.ui \
-  qt/pivx/settings/forms/settingsbackupwallet.ui \
-  qt/pivx/settings/forms/settingsexportcsv.ui \
-  qt/pivx/settings/forms/settingsbittoolwidget.ui \
-  qt/pivx/settings/forms/settingsconsolewidget.ui \
-  qt/pivx/settings/forms/settingsdisplayoptionswidget.ui \
-  qt/pivx/settings/forms/settingsfaqwidget.ui \
-  qt/pivx/settings/forms/settingsinformationwidget.ui \
-  qt/pivx/settings/forms/settingsmainoptionswidget.ui \
-  qt/pivx/settings/forms/settingssignmessagewidgets.ui \
-  qt/pivx/settings/forms/settingswalletoptionswidget.ui \
-  qt/pivx/settings/forms/settingswalletrepairwidget.ui \
+  qt/pivx/settings/forms/backupwallet.ui \
+  qt/pivx/settings/forms/exportcsv.ui \
+  qt/pivx/settings/forms/bittoolwidget.ui \
+  qt/pivx/settings/forms/consolewidget.ui \
+  qt/pivx/settings/forms/displayoptionswidget.ui \
+  qt/pivx/settings/forms/faqwidget.ui \
+  qt/pivx/settings/forms/informationwidget.ui \
+  qt/pivx/settings/forms/mainoptionswidget.ui \
+  qt/pivx/settings/forms/signmessagewidgets.ui \
+  qt/pivx/settings/forms/walletoptionswidget.ui \
+  qt/pivx/settings/forms/walletrepairwidget.ui \
   qt/pivx/settings/forms/settingswidget.ui \
   qt/pivx/forms/welcomecontentwidget.ui \
   qt/pivx/forms/splash.ui
