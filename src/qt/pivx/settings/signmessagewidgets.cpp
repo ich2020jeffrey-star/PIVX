@@ -2,7 +2,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/settings/settingssignmessagewidgets.h"
+#include "qt/pivx/settings/signmessagewidgets.h"
 
 #include "key_io.h"
 #include "messagesigner.h"

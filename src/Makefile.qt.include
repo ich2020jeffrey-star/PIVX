@@ -143,17 +143,17 @@ QT_MOC_CPP = \
   qt/pivx/moc_createproposaldialog.cpp \
   qt/pivx/moc_proposalinfodialog.cpp \
   qt/pivx/moc_governancewidget.cpp \
-  qt/pivx/settings/moc_settingsbackupwallet.cpp \
-  qt/pivx/settings/moc_settingsexportcsv.cpp \
-  qt/pivx/settings/moc_settingsbittoolwidget.cpp \
-  qt/pivx/settings/moc_settingsconsolewidget.cpp \
-  qt/pivx/settings/moc_settingsdisplayoptionswidget.cpp \
-  qt/pivx/settings/moc_settingsfaqwidget.cpp \
-  qt/pivx/settings/moc_settingsinformationwidget.cpp \
-  qt/pivx/settings/moc_settingsmainoptionswidget.cpp \
-  qt/pivx/settings/moc_settingssignmessagewidgets.cpp \
-  qt/pivx/settings/moc_settingswalletoptionswidget.cpp \
-  qt/pivx/settings/moc_settingswalletrepairwidget.cpp \
+  qt/pivx/settings/moc_backupwallet.cpp \
+  qt/pivx/settings/moc_exportcsv.cpp \
+  qt/pivx/settings/moc_bittoolwidget.cpp \
+  qt/pivx/settings/moc_consolewidget.cpp \
+  qt/pivx/settings/moc_displayoptionswidget.cpp \
+  qt/pivx/settings/moc_faqwidget.cpp \
+  qt/pivx/settings/moc_informationwidget.cpp \
+  qt/pivx/settings/moc_mainoptionswidget.cpp \
+  qt/pivx/settings/moc_signmessagewidgets.cpp \
+  qt/pivx/settings/moc_walletoptionswidget.cpp \
+  qt/pivx/settings/moc_walletrepairwidget.cpp \
   qt/pivx/settings/moc_settingswidget.cpp \
   qt/pivx/moc_welcomecontentwidget.cpp \
   qt/pivx/moc_splash.cpp
@@ -259,17 +259,17 @@ BITCOIN_QT_H = \
   qt/pivx/createproposaldialog.h \
   qt/pivx/proposalinfodialog.h \
   qt/pivx/governancewidget.h \
-  qt/pivx/settings/settingsbackupwallet.h \
-  qt/pivx/settings/settingsexportcsv.h \
-  qt/pivx/settings/settingsbittoolwidget.h \
-  qt/pivx/settings/settingsconsolewidget.h \
-  qt/pivx/settings/settingsdisplayoptionswidget.h \
-  qt/pivx/settings/settingsfaqwidget.h \
-  qt/pivx/settings/settingsinformationwidget.h \
-  qt/pivx/settings/settingsmainoptionswidget.h \
-  qt/pivx/settings/settingssignmessagewidgets.h \
-  qt/pivx/settings/settingswalletoptionswidget.h \
-  qt/pivx/settings/settingswalletrepairwidget.h \
+  qt/pivx/settings/backupwallet.h \
+  qt/pivx/settings/exportcsv.h \
+  qt/pivx/settings/bittoolwidget.h \
+  qt/pivx/settings/consolewidget.h \
+  qt/pivx/settings/displayoptionswidget.h \
+  qt/pivx/settings/faqwidget.h \
+  qt/pivx/settings/informationwidget.h \
+  qt/pivx/settings/mainoptionswidget.h \
+  qt/pivx/settings/signmessagewidgets.h \
+  qt/pivx/settings/walletoptionswidget.h \
+  qt/pivx/settings/walletrepairwidget.h \
   qt/pivx/settings/settingswidget.h \
   qt/pivx/welcomecontentwidget.h \
   qt/pivx/splash.h
@@ -598,17 +598,17 @@ BITCOIN_QT_WALLET_CPP = \
   qt/pivx/createproposaldialog.cpp \
   qt/pivx/proposalinfodialog.cpp \
   qt/pivx/governancewidget.cpp \
-  qt/pivx/settings/settingsbackupwallet.cpp \
-  qt/pivx/settings/settingsexportcsv.cpp \
-  qt/pivx/settings/settingsbittoolwidget.cpp \
-  qt/pivx/settings/settingsconsolewidget.cpp \
-  qt/pivx/settings/settingsdisplayoptionswidget.cpp \
-  qt/pivx/settings/settingsfaqwidget.cpp \
-  qt/pivx/settings/settingsinformationwidget.cpp \
-  qt/pivx/settings/settingsmainoptionswidget.cpp \
-  qt/pivx/settings/settingssignmessagewidgets.cpp \
-  qt/pivx/settings/settingswalletoptionswidget.cpp \
-  qt/pivx/settings/settingswalletrepairwidget.cpp \
+  qt/pivx/settings/backupwallet.cpp \
+  qt/pivx/settings/exportcsv.cpp \
+  qt/pivx/settings/bittoolwidget.cpp \
+  qt/pivx/settings/consolewidget.cpp \
+  qt/pivx/settings/displayoptionswidget.cpp \
+  qt/pivx/settings/faqwidget.cpp \
+  qt/pivx/settings/informationwidget.cpp \
+  qt/pivx/settings/mainoptionswidget.cpp \
+  qt/pivx/settings/signmessagewidgets.cpp \
+  qt/pivx/settings/walletoptionswidget.cpp \
+  qt/pivx/settings/walletrepairwidget.cpp \
   qt/pivx/settings/settingswidget.cpp \
   qt/pivx/welcomecontentwidget.cpp \
   qt/pivx/splash.cpp

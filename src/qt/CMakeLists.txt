@@ -139,17 +139,17 @@ SET(QT_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/pivx/createproposaldialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/pivx/proposalinfodialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/pivx/governancewidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingsbackupwallet.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingsbittoolwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingsconsolewidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingsdisplayoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingsfaqwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingsinformationwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingsmainoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingssignmessagewidgets.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingswalletoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingswalletrepairwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingsexportcsv.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/backupwallet.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/bittoolwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/consolewidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/displayoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/faqwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/informationwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/mainoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/signmessagewidgets.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/walletoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/walletrepairwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/exportcsv.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/pivx/settings/settingswidget.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/pivx/welcomecontentwidget.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/pivx/splash.cpp
