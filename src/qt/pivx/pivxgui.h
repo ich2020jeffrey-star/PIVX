@@ -14,18 +14,18 @@
 #include <QSystemTrayIcon>
 #include <QLabel>
 
-#include "qt/pivx/navmenuwidget.h"
-#include "qt/pivx/topbar.h"
-#include "qt/pivx/dashboardwidget.h"
-#include "qt/pivx/send.h"
-#include "qt/pivx/receivewidget.h"
 #include "qt/pivx/addresseswidget.h"
 #include "qt/pivx/coldstakingwidget.h"
+#include "qt/pivx/dashboardwidget.h"
 #include "qt/pivx/governancewidget.h"
 #include "qt/pivx/masternodeswidget.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/pivx/navmenuwidget.h"
+#include "qt/pivx/receivewidget.h"
+#include "qt/pivx/send.h"
+#include "qt/pivx/settings/faqwidget.h"
 #include "qt/pivx/settings/settingswidget.h"
-#include "qt/pivx/settings/settingsfaqwidget.h"
+#include "qt/pivx/snackbar.h"
+#include "qt/pivx/topbar.h"
 #include "qt/rpcconsole.h"
 
 namespace interfaces {

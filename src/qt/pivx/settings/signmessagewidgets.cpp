@@ -2,12 +2,12 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/settings/settingssignmessagewidgets.h"
+#include "qt/pivx/settings/signmessagewidgets.h"
+#include "qt/pivx/settings/forms/ui_signmessagewidgets.h"
 
 #include "key_io.h"
 #include "messagesigner.h"
 #include "qt/askpassphrasedialog.h"
-#include "qt/pivx/settings/forms/ui_settingssignmessagewidgets.h"
 #include "qt/pivx/qtutils.h"
 #include "qt/walletmodel.h"
 #include "util/validation.h"

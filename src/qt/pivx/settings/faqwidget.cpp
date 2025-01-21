@@ -6,8 +6,9 @@
 #include "config/pivx-config.h"
 #endif
 
-#include "qt/pivx/settings/settingsfaqwidget.h"
-#include "qt/pivx/settings/forms/ui_settingsfaqwidget.h"
+#include "qt/pivx/settings/faqwidget.h"
+#include "qt/pivx/settings/forms/ui_faqwidget.h"
+
 #include "qt/pivx/mnmodel.h"
 #include "qt/pivx/qtutils.h"
 

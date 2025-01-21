@@ -6,17 +6,18 @@
 #define PIVX_QT_PIVX_SETTINGS_SETTINGSWIDGET_H
 
 #include <QWidget>
+
 #include "qt/pivx/pwidget.h"
-#include "qt/pivx/settings/settingsbackupwallet.h"
-#include "qt/pivx/settings/settingsexportcsv.h"
-#include "qt/pivx/settings/settingsbittoolwidget.h"
-#include "qt/pivx/settings/settingssignmessagewidgets.h"
-#include "qt/pivx/settings/settingswalletrepairwidget.h"
-#include "qt/pivx/settings/settingswalletoptionswidget.h"
-#include "qt/pivx/settings/settingsmainoptionswidget.h"
-#include "qt/pivx/settings/settingsdisplayoptionswidget.h"
-#include "qt/pivx/settings/settingsinformationwidget.h"
-#include "qt/pivx/settings/settingsconsolewidget.h"
+#include "qt/pivx/settings/backupwallet.h"
+#include "qt/pivx/settings/bittoolwidget.h"
+#include "qt/pivx/settings/consolewidget.h"
+#include "qt/pivx/settings/displayoptionswidget.h"
+#include "qt/pivx/settings/exportcsv.h"
+#include "qt/pivx/settings/informationwidget.h"
+#include "qt/pivx/settings/mainoptionswidget.h"
+#include "qt/pivx/settings/signmessagewidgets.h"
+#include "qt/pivx/settings/walletoptionswidget.h"
+#include "qt/pivx/settings/walletrepairwidget.h"
 
 class PIVXGUI;
 
