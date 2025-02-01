@@ -66,7 +66,7 @@ jobs:
           # Run the remainder of lint tests in `test/lint/`.
           test/lint/lint-all.sh
 
-          # Verify that scripted diffs are deterministically reproducable.
+          # Verify that scripted diffs are deterministically reproducible.
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             COMMIT_RANGE="${{ github.base_ref }}..HEAD"
             test/lint/commit-script-check.sh $COMMIT_RANGE
