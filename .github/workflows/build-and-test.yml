@@ -533,7 +533,7 @@ jobs:
           - name: macOS 10.12
             os: ubuntu-22.04
             host: x86_64-apple-darwin16
-            packages: cmake imagemagick libcap-dev librsvg2-bin libz-dev libbz2-dev libtiff-tools
+            packages: cmake imagemagick libcap-dev librsvg2-bin libz-dev libbz2-dev libtiff-tools xorriso
             XCODE_VERSION: 11.3.1
             XCODE_BUILD_ID: 11C505
 
@@ -657,7 +657,7 @@ jobs:
             id: macOS10.12-build
             os: ubuntu-22.04
             host: x86_64-apple-darwin16
-            packages: cmake imagemagick libcap-dev librsvg2-bin libz-dev libbz2-dev libtiff-tools
+            packages: cmake imagemagick libcap-dev librsvg2-bin libz-dev libbz2-dev libtiff-tools xorriso
             XCODE_VERSION: 11.3.1
             XCODE_BUILD_ID: 11C505
             unit_tests: false
