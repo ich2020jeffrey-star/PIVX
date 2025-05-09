@@ -195,7 +195,7 @@ jobs:
             sudo apt-get install --no-install-recommends --no-upgrade -qq "$APT_BASE" ${{ matrix.config.packages }}
           fi
           if [[ ${{ matrix.config.os }} = macos* ]]; then
-            brew install "$APT_BASE" ${{ matrix.config.packages }}
+            brew install -q "$APT_BASE" ${{ matrix.config.packages }}
           fi
 
       - name: Setup cmake
@@ -327,7 +327,7 @@ jobs:
             sudo apt-get install --no-install-recommends --no-upgrade -qq "$APT_BASE" ${{ matrix.config.packages }}
           fi
           if [[ ${{ matrix.config.os }} = macos* ]]; then
-            brew install ${{ matrix.config.packages }}
+            brew install -q ${{ matrix.config.packages }}
             pip install ds_store mac_alias
           fi
 
@@ -471,7 +471,7 @@ jobs:
             sudo apt-get install --no-install-recommends --no-upgrade -qq ${{ matrix.config.packages }}
           fi
           if [[ ${{ matrix.config.os }} = macos* ]]; then
-            brew install ${{ matrix.config.packages }}
+            brew install -q ${{ matrix.config.packages }}
           fi
           pip install pyzmq
 
