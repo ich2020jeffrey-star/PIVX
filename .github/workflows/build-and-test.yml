@@ -236,6 +236,11 @@ jobs:
           export CC
           export CXX
           export PYTHON
+          # workaround for macos runners not being able to properly test the native clang++ from within cmake
+          if [[ ${{ matrix.config.os }} = macos* ]]; then
+            ./autogen.sh
+            ./configure
+          fi
           mkdir -p ${{ github.workspace }}/cmake-build-debug && cd ${{ github.workspace }}/cmake-build-debug
           cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" ${{ github.workspace }}
 
