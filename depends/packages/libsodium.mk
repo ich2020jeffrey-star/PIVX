@@ -11,7 +11,7 @@ define $(package)_preprocess_cmds
 endef
 
 define $(package)_config_cmds
-  $($(package)_autoconf) --enable-static --disable-shared
+  $($(package)_autoconf) --enable-static --disable-shared --disable-dependency-tracking
 endef
 
 define $(package)_build_cmds
