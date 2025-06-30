@@ -86,9 +86,9 @@ patch dist/configure < bigsur.patch
 # The packaged config.guess and config.sub are ancient (2009) and can cause build issues.
 # Replace them with modern versions.
 # See https://github.com/bitcoin/bitcoin/issues/16064
-CONFIG_GUESS_URL='https://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=00b15927496058d23e6258a28d8996f87cf1f191'
+CONFIG_GUESS_URL='https://gist.githubusercontent.com/Fuzzbawls/8b1a7c9d094e3dcb3295cf7c56e35bc5/raw/e357876828a4e2f263b184bc7cb7ea2322b540a9/config.guess'
 CONFIG_GUESS_HASH='e3d148130e9151735f8b9a8e69a70d06890ece51468a9762eb7ac0feddddcc2f'
-CONFIG_SUB_URL='https://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=00b15927496058d23e6258a28d8996f87cf1f191'
+CONFIG_SUB_URL='https://gist.githubusercontent.com/Fuzzbawls/db174c45f41e77862184ff05f8055942/raw/9c3965804b7376ec371a4cbfc851be96f3f38a3d/config.sub'
 CONFIG_SUB_HASH='11c54f55c3ac99e5d2c3dc2bb0bcccbf69f8223cc68f6b2438daa806cf0d16d8'
 
 rm -f "dist/config.guess"
