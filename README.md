@@ -1,55 +1,82 @@
-PIVX Core integration/staging repository
-=====================================
 
-[![master Actions Status](https://github.com/PIVX-Project/PIVX/workflows/CI%20Actions%20for%20PIVX/badge.svg)](https://github.com/PIVX-Project/PIVX/actions)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/PIVX-Project/pivx?color=%235c4b7d&cacheSeconds=3600)](https://github.com/PIVX-Project/PIVX/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/PIVX-Project/pivx?color=%235c4b7d&cacheSeconds=3600)](https://github.com/PIVX-Project/PIVX/releases)
 
-## What is PIVX?
+---
 
-PIVX is an open source community-driven cryptocurrency, focused on five main aspects:
+# PAC Global Core Integration Repository  
+**Branch**: `master`  
+**Status**: Active Development  
+**Latest Release**: See GitHub Releases  
+**Release Date**: Refer to tagged versions
 
-(1) User Data Protection: Through the use of SHIELD, a zk-SNARKs based privacy protocol.
+---
 
-(2) Low environmental footprint and network participation equality: Through the use of a highly developed Proof of Stake protocol.
+## 🌐 What is PAC Global?
 
-(3) Decentralized Governance System: A DAO built on top of the tier two Masternodes network, enabling a monthly community treasury, proposals submission and decentralized voting.
+PAC Global is an open-source, community-driven cryptocurrency focused on delivering secure, scalable, and eco-conscious digital finance. It builds on the foundation of Proof-of-Stake and masternode architecture to offer a robust and decentralized ecosystem.
 
-(4) Fast Transactions: Through the use of fast block times and the tier two network, PIVX is committed to continue researching new and better instant transactions mechanisms.
+### Key Features:
 
-(5) Ease of Use: PIVX is determined to offer the best possible graphical interface for a core node/wallet. A full featured graphical product for new and advanced users.
+1. **Privacy Protection**  
+   PAC Global is committed to safeguarding user data through advanced cryptographic protocols and privacy-enhancing technologies.
 
-A lot more information and specs at [PIVX.org](https://www.pivx.org/). Join the community at [PIVX Discord](https://discordapp.com/invite/jzqVsJd).
+2. **Sustainable Consensus**  
+   Powered by a highly efficient Proof-of-Stake protocol, PAC Global minimizes environmental impact while promoting equal participation across the network.
 
-## License
-PIVX Core is released under the terms of the MIT license. See [COPYING](https://github.com/PIVX-Project/PIVX/blob/master/COPYING) for more information or see https://opensource.org/licenses/MIT.
+3. **Decentralized Governance**  
+   A tier-two masternode network enables a fully decentralized autonomous organization (DAO), supporting treasury proposals, community voting, and transparent funding.
 
-## Development Process
+4. **Fast & Reliable Transactions**  
+   Optimized block times and masternode relays ensure rapid transaction processing, with ongoing research into next-generation instant payment solutions.
 
-The master branch is regularly built (see doc/build-*.md for instructions) and tested, but it is not guaranteed to be completely stable. [Tags](https://github.com/PIVX-Project/PIVX/tags) are created regularly from release branches to indicate new official, stable release versions of PIVX Core.
+5. **User-Friendly Wallet Interface**  
+   PAC Global offers a full-featured graphical wallet designed for both novice and advanced users, combining intuitive design with powerful functionality.
 
-The contribution workflow is described in [CONTRIBUTING.md](https://github.com/PIVX-Project/PIVX/blob/master/CONTRIBUTING.md) and useful hints for developers can be found in [doc/developer-notes.md](https://github.com/PIVX-Project/PIVX/blob/master/doc/developer-notes.md).
+For more information, visit [PACGlobal.io](https://pacglobal.io) and join the conversation on [PAC Global Discord](https://discord.gg/pacglobal).
 
-## Testing
+---
 
-Testing and code review is the bottleneck for development; we get more pull requests than we can review and test on short notice. Please be patient and help out by testing other people's pull requests, and remember this is a security-critical project where any mistake might cost people a lot of money.
+## 📜 License
 
-## Automated Testing
+PAC Global Core is released under the terms of the MIT license. See the `COPYING` file or visit [opensource.org/licenses/MIT](https://opensource.org/licenses/MIT) for details.
 
-Developers are strongly encouraged to write [unit tests](https://github.com/PIVX-Project/PIVX/blob/master/src/test/README.md) for new code, and to submit new unit tests for old code. Unit tests can be compiled and run (assuming they weren't disabled in configure) with: make check. Further details on running and extending unit tests can be found in [/src/test/README.md](https://github.com/PIVX-Project/PIVX/blob/master/src/test/README.md).
+---
 
-There are also regression and integration tests, written in Python. These tests can be run (if the test dependencies are installed) with: test/functional/test_runner.py`
+## 🔧 Development Process
 
-The CI (Continuous Integration) systems make sure that every pull request is built for Windows, Linux, and macOS, and that unit/sanity tests are run automatically.
+The `master` branch is actively built and tested. While stable, it may include experimental features. Official releases are tagged from dedicated release branches.
 
-## Manual Quality Assurance (QA) Testing
+- Build instructions: See `doc/build-*.md`
+- Contribution guidelines: See `CONTRIBUTING.md`
+- Developer notes: See `doc/developer-notes.md`
 
-Changes should be tested by somebody other than the developer who wrote the code. This is especially important for large or high-risk changes. It is useful to add a test plan to the pull request description if testing the changes is not straightforward.
+---
 
-## Translations
+## 🧪 Testing
 
-Changes to translations as well as new translations can be submitted to PIVX Core's Transifex page.
+Testing and code review are essential to maintaining security and stability. We welcome community contributions and encourage peer review of pull requests.
 
-Translations are periodically pulled from Transifex and merged into the git repository. See the [translation process](https://github.com/PIVX-Project/PIVX/blob/master/doc/translation_process.md) for details on how this works.
+### Automated Testing
 
-Important: We do not accept translation changes as GitHub pull requests because the next pull from Transifex would automatically overwrite them again.
+- Unit tests: Run with `make check` (if enabled during configuration)
+- Python-based regression/integration tests:  
+  ```bash
+  test/functional/test_runner.py
+  ```
+
+Our CI system ensures cross-platform builds and automated sanity checks for every pull request.
+
+### Manual QA
+
+All significant changes should be tested by someone other than the original developer. For complex updates, include a test plan in the pull request description.
+
+---
+
+## 🌍 Translations
+
+Translation updates and new language submissions are managed via PAC Global’s Transifex page. These are periodically synced with the repository.
+
+**Note**: We do not accept translation changes via GitHub pull requests, as they will be overwritten by the next Transifex sync.
+
+---
+
+Let me know if you'd like help customizing the logo, updating the genesis block, or writing a mission statement for your coin. I can help make PAC Global shine.
